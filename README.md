@@ -15,3 +15,7 @@ Please cite the above paper if you intend to use whole/part of the code. This co
 + `./Figures/featscore_cvd.png`: The feature importance scores of each feature of CVD dataset for detecting stroke using the ANOVA-F test.
 + `./Figures/featscore_fram.png`: The feature importance scores of each feature of Framingham dataset for detecting TenYearCHD using the ANOVA-F test.
 + `./Dataset/`: This folder contains both our input datasets `CVD_Data.csv` and `framingham.csv`.
+
+#### Scripts
+
++ `./Scripts/Stroke_paper.ipynb`: This code file contains all the code used for generating the results presented in the manuscript. In the manuscript we have presented results for two different datasets, however in the code file we have only included the code for framingham dataset as the procedure is same for both datasets. The code contains functions for data preprocessing such as class imbalance and null value problems. Furthermore, we have obtained the Correlation values using `.corr()` function of `Pandas` library in Python and have plotted the results using `seaborn` data visualisation library. 
