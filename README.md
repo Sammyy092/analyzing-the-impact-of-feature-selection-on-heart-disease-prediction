@@ -11,7 +11,7 @@ Please cite the above paper if you intend to use whole/part of the code. This co
 ### Code
 
 +`./Figures/corr_CVD.png`: The correlation values for each medical features of CVD dataset and the target feature stroke.
-+`./Figures/Corr_framingham.png`: The correlation values for each medical features of framingham dataset and the target feature TenYearCHD
++`./Figures/Corr_framingham.png`: The correlation values for each medical features of framingham dataset and the target feature TenYearCHD.
 +`./Figures/featscore_cvd.png`: The feature importance scores of each feature of CVD dataset for detecting stroke using the ANOVA-F test.
 +`./Figures/featscore_fram.png`: The feature importance scores of each feature of Framingham dataset for detecting TenYearCHD using the ANOVA-F test.
 + `./Dataset/`: This folder contains both our input datasets `CVD_Data.csv` and `framingham.csv`.
